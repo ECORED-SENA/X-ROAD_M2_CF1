@@ -1,0 +1,89 @@
+.bloque-texto-b i:last-of-type
+  vertical-align: top
+.p
+  margin-top: 1rem   
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto     
+
+.nav-bg
+  background-color: lighten(#3366C2, 48%) !important
+
+.li
+  background-color: #0991A1 !important
+  color: #12263F
+
+.row-bg
+  background-color: lighten(#3366C2, 48%) !important  
+
+.tabs-b__tab  
+  background-color: #E8E8E8 !important
+  border: 15px solid white !important
+  font-size: 15px !important    
+
+.tabs-b__tab--active
+  background: #0991A1 !important
+  color: white !important
+  border: 15px solid white !important
+  font-size: 15px !important  
+
+.tabs-b__tab:hover
+  background-color: #0991A1 !important
+  border: 15px solid white !important 
+  color: white !important
+  font-size: 15px !important  
+
+.card-media
+  position: relative
+  padding: 1rem 1rem 1rem 5rem
+  margin: 1rem 0
+  -webkit-border-radius: 12px
+  -moz-border-radius: 12px
+  border-radius: 20px
+  background-color: #7CC4FF2A
+  
+
+  &__body
+    .card__figure
+      margin: 0
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translate(-40%, -50%)
+      max-width: 120px
+
+      img
+        width: 80%
+
+    .card__copy
+      margin: 0
+
+//Tamaño personalizado imagen tarjeta
+.large-imgSize
+  width: 200px !important
+
+@media (max-width: 768px)
+  .card-media
+    position: relative
+    padding: 5rem 2rem 2rem 2rem
+    margin: 3rem 0
+
+    &__body
+      .card__figure
+        margin: 0
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translate(-50%, -50%)
+        max-width: 120px
+
+        img
+          width: 80%
+
+      .card__copy
+        margin: 0
