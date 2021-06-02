@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Atributos de Calidad de Seguridad e Interoperabilidad',
     descripcionCurso:
-      'El gobierno ha avanzado a pasos agigantados en la tecnología, en la ciencia y muchas otras áreas del conocimiento. La Tecnología de la información y de la comunicación (TIC), está presente y es necesaria en todos los ámbitos de la vida diaria de un ciudadano; las Entidades públicas requieren funcionar como centros de solución para el ciudadano en el trabajo, la salud, en las relaciones sociales, en el ambiente organizacional, en los procesos educativos, en la búsqueda de la información, en la estructura de los conocimientos y en los intereses y motivaciones de las personas.',
+      'Este componente define la arquitectura de software como una disciplina encargada de soportar las decisiones de diseño de más alto nivel, definidas para un sistema. Es arquitectura de software, tiene la capacidad de proteger la información, a partir de tres pilares: confidencialidad, integridad y disponibilidad.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
