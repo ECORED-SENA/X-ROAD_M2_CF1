@@ -5,12 +5,12 @@
     .titulo-principal
       .titulo-principal__numero.title-number
         .h3 2
-      .h3 Atributo de Calidad de Seguridad
-    .titulo-segundo
-      .h4  La Triada de la Seguridad 
+      .h3 Atributo de calidad de seguridad – La triada de la seguridad
+    
+    .h3  La Triada de la Seguridad 
     .row.justify-content-center.align-items-center.mt-5
       .col-8
-        p CIA: Sigla en inglés que equivale a Confidentiality (Confidencialidad), Integrity (Integridad) y Availability (Disponibilidad), los cuales constituyen los tres pilares de la seguridad de la información.
+        p #[b CIA:] Sigla en inglés que equivale a Confidentiality (Confidencialidad), Integrity (Integridad) y Availability (Disponibilidad), los cuales constituyen los #[b tres pilares] de la seguridad de la información.
         img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img11.svg', alt='') 
 
     .row.justify-content-between.align-items-center.row-bg.p-4.mt-5
@@ -23,11 +23,19 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | El observador no puede acceder al contenido del mensaje.
+            P 
+              |El observador no puede 
+              strong acceder 
+              | al contenido del 
+              strong mensaje.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | El observador no puede identificar al remitente y al receptor.
+            p 
+              |El observador no puede identificar al 
+              strong remitente 
+              | y al 
+              strong receptor.
         .titulo-segundo#t_2_2.mt-5
           .h4 2.2 Integridad
         p #[b No modificación de la información existente.] 
@@ -48,15 +56,24 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Los sistemas informáticos utilizados para almacenar y procesar la información.
+            p 
+              | Los 
+              strong sistemas informáticos 
+              | utilizados para almacenar y procesar la información.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Los controles de seguridad utilizados para proteger la información. 
+            p 
+              | Los 
+              strong controles de seguridad 
+              | utilizados para proteger la información. 
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | Los canales de comunicación utilizados para acceder a la información.  
+            p 
+              | Los 
+              strong canales de comunicación 
+              | utilizados para acceder a la información.  
 
     .titulo-segundo#t_2_4.mt-5
       .h4 2.4 Características de la Seguridad
@@ -65,10 +82,10 @@
     .titulo-segundo#t_2_5.mt-5
       .h4 2.5 Tácticas Arquitectónicas para Seguridad
 
-    p #[b Táctica arquitectónica]
+    .h6 #[b Táctica arquitectónica]
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img15.svg', alt='')
 
-    p.mt-5 #[b Mapa de tácticas arquitectónicas para seguridad]
+    .h6.mt-5 #[b Mapa de tácticas arquitectónicas para seguridad]
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img16.svg', alt='')
 
 

@@ -6,11 +6,10 @@
       .titulo-principal__numero.title-number
         .h3 1
       .h3 Arquitectura de Software 
-    .titulo-segundo
-      .h4 ¿Qué es Arquitectura de Software?       
+    .h3 ¿Qué es Arquitectura de Software?       
     .row.justify-content-center.align-items-center
       .col-12.col-md-7
-        p La #[b arquitectura de software] La arquitectura de software es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:
+        p la #[b arquitectura de software] es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:
         ol.lista-ol--cuadro.mt-5
           li 
             .lista-ol--cuadro__vineta
@@ -35,11 +34,16 @@
       li 
         .lista-ol--cuadro__vineta
           span 1
-        | Los principales elementos arquitectónicos son los componentes.
+        p 
+          | Los principales elementos arquitectónicos son los  
+          strong componentes.
       li 
         .lista-ol--cuadro__vineta
           span 2
-        | Las interacciones entre componentes se dan por medios de conectores.
+        p 
+          |Las 
+          strong interacciones 
+          | entre componentes se dan por medios de conectores.
     .row.justify-content-center.align-items-center.mt-5
       .col-10        
         img.img-t.img-a(src='@/assets/ilustraciones/img2.svg', alt='') 
@@ -51,12 +55,12 @@
 
       .tarjeta.nav-bg.p-4(titulo="Componentes")
         .h6 Componentes
-        p Los #[b componentes] representan los principales elementos computacionales y almacenes de datos que están presentes en tiempo de ejecución.
+        p Representan los principales elementos computacionales y almacenes de datos que están presentes en tiempo de ejecución.
         img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img3.svg', alt='') 
 
       .tarjeta.nav-bg.p-4(titulo="Conectores")
         .h6 Conectores
-        p Los #[b conectores] son una vía de interacción en tiempo de ejecución entre dos o más componentes
+        p Son una vía de interacción en tiempo de ejecución entre dos o más componentes
         img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img4.svg', alt='') 
       
 
@@ -88,7 +92,7 @@
         ul.lista-ul--color.mt-4
           li 
             i.lista-ul__vineta
-            | Aplicación
+            | #[b Aplicación]
         .p #[b Diseño interno de un componente lógico:] código fuente, estructura de archivos, modelado a nivel del paradigma de programación. 
 
       .col-12.col-md-5
@@ -96,7 +100,7 @@
         ul.lista-ul--color.mt-4
           li 
             i.lista-ul__vineta
-            | Base de datos - Modelo de datos
+            | #[b Base de datos - Modelo de datos]
 
     .row.justify-content-between.align-items-center.row-bg.p-4.mt-5
       .col-12.col-md-6 
@@ -104,7 +108,7 @@
       .col-12.col-md-6  
         .titulo-segundo#t_1_4.mt-5
           .h4 1.4 Estructuras Dinámicas 
-        p Las estructuras dinámicas de un sistema de software definen: 
+        p Las #[b estructuras dinámicas] de un sistema de software definen: 
         ol.lista-ol--cuadro.mt-3
           li 
             .lista-ol--cuadro__vineta
@@ -117,7 +121,7 @@
 
         .p Estructuras conformadas por un conjunto de componentes y conectores en ejecución.
 
-        .p Tiempo de ejecución: escenario posterior al proceso de despliegue.
+        .p #[b Tiempo de ejecución:] escenario posterior al proceso de despliegue.
 
         .titulo-segundo#t_1_5.mt-5
           .h4 1.5 Comportamiento Externamente Visible 
@@ -125,7 +129,7 @@
 
     .titulo-segundo#t_1_6.mt-5
       .h4 1.6 Atributos de Calidad         
-    p Una #[b propiedad / atributo] de calidad de un sistema de software es una propiedad no funcional, visible externamente.
+    p Una #[b propiedad / atributo] de calidad de un software es una propiedad no funcional, visible externamente.
     
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
@@ -137,7 +141,7 @@
 
           .py-4.py-md-5(titulo="Interoperabilidad")
             .nav-bg.p-5
-              p Capacidad del sistema de software de intercambiar información.
+              p Capacidad de un software para intercambiar información.
 
             
           .py-4.py-md-5(titulo="Rendimiento")
@@ -152,7 +156,7 @@
             .nav-bg.p-5
               p Capacidad del sistema de software de mantenerse en operación cuando sea necesario.
 
-              .p Esta propiedad posee una característica importante: por un lado corresponde a un atributo de calidad del software (alta disponibilidad), y por otro lado, constituye uno de los tres pilares de la seguridad (otro atributo de calidad).
+              .p Esta propiedad posee una característica importante: corresponde a un atributo de calidad de software (alta disponibilidad), y constituye uno de los tres pilares de la seguridad (otro atributo de calidad)
           
           .py-4.py-md-5(titulo="Resiliencia")
             .nav-bg.p-5

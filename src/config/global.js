@@ -140,6 +140,12 @@ export default {
     ],
     subMenu: [
       {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -211,7 +217,10 @@ export default {
         regional: 'Regional Tolima',
       },
       {
-        nombre: ['Eulises Orduz Amezquita', 'Luis Gabriel Urueta Alvarez'],
+        nombre: [
+          'Eulises Orduz Amezquita',
+          'Luis Gabriel Urueta Alvarez, Oscar Ivan Uribe Ortiz',
+        ],
         cargo: 'Diseño Web y Producción audiovisual',
       },
       {
@@ -219,7 +228,7 @@ export default {
         cargo: 'Desarrollo front-End',
       },
       {
-        nombre: 'Jenny Paola Montillo Gélvez',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',

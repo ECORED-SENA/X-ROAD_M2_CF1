@@ -6,8 +6,8 @@
       .titulo-principal__numero.title-number
         .h3 3
       .h3 Atributo de calidad de Interoperabilidad
-    .titulo-segundo
-      .h4 Interoperabilidad
+    
+    .h3 Interoperabilidad
     .row.justify-content-center.align-items-center.mt-5
       .col-2
         img.img-t.img-a(src='@/assets/ilustraciones/img17.svg', alt='')
@@ -16,7 +16,7 @@
         img.img-t.img-a(src='@/assets/ilustraciones/img18.svg', alt='')
         .p Desde el punto de vista arquitectónico, la interoperabilidad es el grado en el que dos o más sistemas de software (o componentes) pueden intercambiar información significativa a través de interfaces, en un contexto particular.
 
-        .p En este contexto se hace referencia a la #[b interoperabilidad] técnica, presentada en el #[b Marco de Interoperabilidad para el Estado Colombiano.]
+        .p En este contexto se hace referencia a la #[b interoperabilidad técnica], presentada en el #[b Marco de Interoperabilidad para el Estado Colombiano.]
       .col-2
         img.img-t.img-a(src='@/assets/ilustraciones/img19.svg', alt='')
     .titulo-segundo#t_3_1.mt-5
@@ -81,7 +81,7 @@
         .p SOAP hace uso del protocolo #[b HTTP] como canal de comunicación y por lo tanto es uno de los esquema que permite la definición e implementación de #[b servicios web].
 
     .titulo-segundo#t_3_4.mt-5
-      .h4 3.3 SOAP 
+      .h4 3.4 REST
     .row.justify-content-center.align-items-center.mt-5
       .col-8
         img.img-t.img-a(src='@/assets/ilustraciones/img27.svg', alt='')
@@ -103,7 +103,7 @@
                     .card-media__body
                       figure.card__figure
                           img(src='@/assets/ilustraciones/img28.svg', alt='')   
-                      p #[b Descubrimiento de servicios] 
+                      .h6 #[b Descubrimiento de servicios] 
                       .p Localizar un servicio mediante la búsqueda de un servicio de directorio conocido.  
                         
           .col-12.col-md-6 
@@ -113,7 +113,7 @@
                     .card-media__body
                       figure.card__figure
                           img(src='@/assets/ilustraciones/img29.svg', alt='')   
-                      p #[b Orquestación] 
+                      .h6 #[b Orquestación] 
                       .p Mecanismo de control para coordinar, gestionar y secuenciar la invocación de diferentes servicios. 
 </template>
 
