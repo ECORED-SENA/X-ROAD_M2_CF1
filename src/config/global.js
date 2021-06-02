@@ -171,6 +171,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      centro: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -180,56 +181,59 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: [
-          'Daniel Fernando Portilla Arciniegas',
-          'José Ricardo Aponte Oviedo',
-        ],
-        cargo: 'Expertos temáticos',
+        nombre: 'Daniel Fernando Portilla Arciniegas',
+        cargo: 'Experto temático',
+        centro: 'MINTIC',
+      },
+      {
+        nombre: 'José Ricardo Aponte Oviedo',
+        cargo: 'Experto temático',
         centro: 'MINTIC',
       },
       {
         nombre: 'Sergio Arturo Medina Castillo',
         cargo: 'Diseñador instruccional',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Vilma Lucia Perilla M',
+        nombre: 'Vilma Lucia Perilla M.',
         cargo: 'Revisora y evaluadora metodológica',
         centro: 'Centro de Gestión Industrial',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Corrección de estilo',
+        cargo: 'Correción de estilo',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
       },
       {
         nombre: [
           'Eulises Orduz Amezquita',
-          'Luis Gabriel Urueta Alvarez, Oscar Ivan Uribe Ortiz',
+          'Luis Gabriel Urueta Alvarez',
+          'Oscar Ivan Uribe Ortiz',
         ],
-        cargo: 'Diseño Web y Producción audiovisual',
+        cargo: 'Diseño web y Producción Audiovisual',
       },
       {
         nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo front-End',
+        cargo: 'Desarrollo front-end',
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
+      },
+      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -237,7 +241,7 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación y vinculación en plataforma LMS'],
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
