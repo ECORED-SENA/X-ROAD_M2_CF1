@@ -9,7 +9,7 @@
     .h3 ¿Qué es Arquitectura de Software?       
     .row.justify-content-center.align-items-center
       .col-12.col-md-7
-        p la #[b arquitectura de software] es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:
+        p La #[b arquitectura de software] es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:
         ol.lista-ol--cuadro.mt-5
           li 
             .lista-ol--cuadro__vineta
