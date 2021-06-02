@@ -6,7 +6,7 @@
       .titulo-principal__numero.title-number
         .h3 1
       .h3 Arquitectura de Software 
-    .h3 ¿Qué es Arquitectura de Software?       
+    .h3 ¿Qué es arquitectura de software?       
     .row.justify-content-center.align-items-center
       .col-12.col-md-7
         p La #[b arquitectura de software] es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:
@@ -85,7 +85,10 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | La disposición de los elementos. 
+            p 
+              |La 
+              strong disposición 
+              | de los elementos. 
 
         p.mt-5 #[b Tiempo de diseño]: escenario previo al proceso de despliegue.
         img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img7.svg', alt='')
@@ -129,15 +132,14 @@
 
     .titulo-segundo#t_1_6.mt-5
       .h4 1.6 Atributos de Calidad         
-    p Una #[b propiedad / atributo] de calidad de un software es una propiedad no funcional, visible externamente.
-    
+    p Una propiedad / atributo de calidad en un sistema de software, es una propiedad no funcional, visible externamente.
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
         TabsB
           .py-4.py-md-5(titulo="Seguridad")
 
             .nav-bg.p-5
-              p Capacidad del sistema de software de proteger la información a partir de tres pilares: confidencialidad, integridad y disponibilidad.
+              p Capacidad del sistema de software con el fin de proteger la información a partir de tres pilares: confidencialidad, integridad y disponibilidad.
 
           .py-4.py-md-5(titulo="Interoperabilidad")
             .nav-bg.p-5
