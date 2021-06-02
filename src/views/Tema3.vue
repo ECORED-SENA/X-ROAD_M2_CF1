@@ -7,7 +7,7 @@
         .h3 3
       .h3 Atributo de calidad de Interoperabilidad
     
-    .h3 Interoperabilidad
+    .h4 Interoperabilidad
     .row.justify-content-center.align-items-center.mt-5
       .col-2
         img.img-t.img-a(src='@/assets/ilustraciones/img17.svg', alt='')

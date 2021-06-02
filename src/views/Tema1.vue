@@ -6,7 +6,7 @@
       .titulo-principal__numero.title-number
         .h3 1
       .h3 Arquitectura de Software 
-    .h3 ¿Qué es arquitectura de software?       
+    .h4 ¿Qué es arquitectura de software?       
     .row.justify-content-center.align-items-center
       .col-12.col-md-7
         p La #[b arquitectura de software] es el conjunto de estructuras necesarias para #[b razonar] acerca de un sistema de software, las cuales comprenden:

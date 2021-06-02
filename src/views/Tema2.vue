@@ -6,13 +6,11 @@
       .titulo-principal__numero.title-number
         .h3 2
       .h3 Atributo de calidad de seguridad – La triada de la seguridad
-    
-    .h3  La Triada de la Seguridad 
     .row.justify-content-center.align-items-center.mt-5
       .col-8
         p #[b CIA:] Sigla en inglés que equivale a Confidentiality (Confidencialidad), Integrity (Integridad) y Availability (Disponibilidad), los cuales constituyen los #[b tres pilares] de la seguridad de la información.
         img.img-t.img-a.mt-4(src='@/assets/ilustraciones/img11.svg', alt='') 
-
+        .p-r.text-center.mt-3 La Triada de la Seguridad 
     .row.justify-content-between.align-items-center.row-bg.p-4.mt-5
       .col-12.col-md-6 
         .titulo-segundo#t_2_1.mt-5
