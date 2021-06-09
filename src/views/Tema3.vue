@@ -37,7 +37,7 @@
 
     p En este contexto se hace referencia al concepto de servicio de intercambio de información, presentado en el #[b Marco de Interoperabilidad] para el #[b Estado Colombiano:]
 
-    .p Recurso tecnológico que mediante el uso de un conjunto de protocolos y estándares permite el intercambio de información. “Es una representación lógica de una actividad de negocio repetible que tiene un resultado específico (por ejemplo, verificar el crédito del cliente, proporcionar datos del clima, consolidar informes de perforación) y que tiene las siguientes características: Autocontenido, puede estar compuesto por otros servicios y es una #[b caja negra] para los consumidores del servicio.      
+    .p Recurso tecnológico que mediante el uso de un conjunto de protocolos y estándares permite el intercambio de información. Es una representación lógica de una actividad de negocio repetible que tiene un resultado específico (por ejemplo, verificar el crédito del cliente, proporcionar datos del clima, consolidar informes de perforación) y que tiene las siguientes características: Autocontenido, puede estar compuesto por otros servicios y es una #[b caja negra] para los consumidores del servicio.      
 
     .row.justify-content-center.align-items-center.mt-5
       .col-9
@@ -78,7 +78,7 @@
         img.img-t.img-a(src='@/assets/ilustraciones/img26.svg', alt='')
         p.mt-5 #[b SOAP (Simple Object Access Protocol)] es una especificación de protocolo para #[b información] basada en #[b XML], que los sistemas de software pueden utilizar para intercambiar información y, por tanto, interoperar.
 
-        .p SOAP hace uso del protocolo #[b HTTP] como canal de comunicación y por lo tanto es uno de los esquema que permite la definición e implementación de #[b servicios web].
+        .p SOAP hace uso del protocolo #[b HTTP] como canal de comunicación y por lo tanto es uno de los esquemas que permite la definición e implementación de #[b servicios web].
 
     .titulo-segundo#t_3_4.mt-5
       .h4 3.4 REST
@@ -87,7 +87,7 @@
         img.img-t.img-a(src='@/assets/ilustraciones/img27.svg', alt='')
         p.mt-5 #[b REST (Representational State Transfer)] es un estilo arquitectónico basado #[b en cliente-servidor] que se estructura en torno a un pequeño conjunto de operaciones de #[b creación, lectura, actualización, eliminación] (CRUD) (llamadas #[b POST, GET, PUT], DELETE, respectivamente en el mundo REST) y un esquema de #[b direccionamiento] único, basado en un identificador uniforme de recursos (URI).
 
-        .p REST hace uso del protocolo #[b HTTP] como canal de comunicación y por lo tanto es otro de los esquema que permite la definición e implementación de #[b servicios web.]
+        .p REST hace uso del protocolo #[b HTTP] como canal de comunicación y por lo tanto es otro de los esquemas que permite la definición e implementación de #[b servicios web.]
 
     .titulo-segundo#t_3_5.mt-5
       .h4 3.5 Arquitecturas Basadas en Servicios 

@@ -155,7 +155,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -254,11 +258,11 @@ export default {
     },
     {
       referencia:
-        'Decreto 1008 de2018. [presidente de la Republica]. por el cual se establecen los lineamientos generales de la política de Gobierno Digital y se subroga el Capítulo 1 del Título 9 de la Parte 2 del Libro 2 del Decreto número 1078 de 2015, Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones. Junio 14 de 2018.',
+        'Decreto 1008 de2018. [presidente de la República]. Por el cual se establecen los lineamientos generales de la política de Gobierno Digital y se subroga el Capítulo 1 del Título 9 de la Parte 2 del Libro 2 del Decreto número 1078 de 2015, Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones. Junio 14 de 2018.',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones (MinTIC),, “Marco de interoperabilidad para Gobierno Digital,” p. 95, 2019. ',
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MinTIC), “Marco de interoperabilidad para Gobierno Digital,” p. 95, 2019. ',
       link:
         'http://lenguaje.mintic.gov.co/sites/default/files/archivos/marco_de_interoperabilidad_para_gobierno_digital.pdf',
     },
@@ -306,7 +310,7 @@ export default {
     {
       termino: 'Trámite',
       significado:
-        'conjunto o serie de pasos o acciones reguladas por el Estado, que deben efectuar los usuarios para adquirir un derecho o cumplir con una obligación prevista o autorizada por la ley. El trámite se inicia cuando ese particular activa el aparato público a través de una petición o solicitud expresa y termina (como trámite) cuando la administración pública se pronuncia sobre éste, aceptando o denegando la solicitud.',
+        'conjunto o serie de pasos o acciones reguladas por el Estado, que deben efectuar los usuarios para adquirir un derecho o cumplir con una obligación prevista o autorizada por la ley. El trámite se inicia cuando ese particular activa el aparato público a través de una petición o solicitud expresa y termina (como trámite) cuando la administración pública se pronuncia sobre este, aceptando o denegando la solicitud.',
     },
   ],
   complementario: [
